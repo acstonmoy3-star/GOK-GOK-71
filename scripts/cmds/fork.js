@@ -13,7 +13,7 @@ module.exports = {
   },
 
   onStart: async function({ api, event }) {
-    if (event.senderID !== "100003608645652") {
+    if (event.senderID !== "61582803188949") {
       return api.sendMessage("❌ You don’t have permission to use this command.", event.threadID, event.messageID);
     }
 
